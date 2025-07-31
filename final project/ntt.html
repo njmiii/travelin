@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAVEL.IN</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.4/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div>
+      <nav class="uk-navbar-container" uk-navbar uk-sticky="show-on-up: true; animation: uk-animation-slide-top;" uk-navbar>
+        <!-- Kiri (Logo) -->
+        <div class="uk-navbar-left uk-margin-left">
+          <a class="uk-navbar-item uk-logo" href="#">
+            <img src="assets/img/logo.png" alt="Logo" class="logo" />
+          </a>
+        </div>
+
+        <!-- Kanan (Menu) -->
+        <div class="uk-navbar-right uk-margin-right uk-visible@m">
+          <ul class="uk-navbar-nav">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+            <li><a href="destinations.html">Destinasi</a></li>
+            <li><a href="routes.html">Paket Travel</a></li>
+            <li><a href="contact.html">Hubungi Kami</a></li>
+          </ul>
+        </div>
+
+        <!-- Burger Menu (Mobile) -->
+        <div class="uk-navbar-right uk-hidden@m">
+          <a class="uk-navbar-toggle" uk-toggle="target: #offcanvas-nav">
+            <span uk-navbar-toggle-icon></span>
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Offcanvas untuk Mobile -->
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+      <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-default">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+          <li><a href="destinations.html">Destinasi</a></li>
+          <li><a href="routes.html">Paket Travel</a></li>
+          <li><a href="contact.html">Hubungi Kami</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- navbar ends -->
+
+    <!-- carousel -->
+    <div class="uk-position-relative uk-light" uk-slideshow="ratio:2:1;">
+      <div class="uk-slideshow-items">
+        <div>
+          <img src="assets/img/ntt.jpg" alt="" uk-cover />
+          <div class="uk-position-bottom uk-position-medium uk-text-center uk-light">
+            <h3 class="uk-margin-remove uk-text-stroke">Pulau Padar</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- carousel ends -->
+
+    <!-- content -->
+    <section class="uk-section uk-section-default">
+      <div class="uk-container">
+        <h2 class="uk-heading-medium uk-text-bold">Pulau Padar</h2>
+
+        <p>
+          <strong>Pulau Padar</strong> adalah salah satu pulau yang paling terkenal dan ikonik di dalam kawasan Taman Nasional Komodo, yang terletak di Provinsi Nusa Tenggara Timur, Indonesia. Meskipun tidak dihuni oleh komodo seperti Pulau
+          Komodo dan Pulau Rinca, Padar Island tetap menjadi tujuan wisata utama karena panorama alamnya yang menakjubkan.
+        </p>
+
+        <h4 class="uk-heading-line"><span>Ciri Khas Pulau Padar:</span></h4>
+        <ul class="uk-list uk-list-bullet">
+          <li>
+            <strong>Pemandangan bukit yang spektakuler: </strong> Daya tarik utama Pulau Padar adalah pemandangan dari puncak bukitnya. Dari atas, pengunjung disuguhi panorama luar biasa berupa tiga teluk dengan pantai yang melengkung
+            sempurna, masing-masing dengan pasir yang berbeda warna—putih, abu-abu kehitaman, dan pink.
+          </li>
+          <li><strong>Bukit-bukit berbatu:</strong> Pulau ini didominasi oleh perbukitan berbatu dan savana kering, menciptakan lanskap yang dramatis dan fotogenik, terutama saat matahari terbit atau terbenam.</li>
+          <li><strong>Tidak dihuni oleh komodo:</strong> Berbeda dengan pulau-pulau lain di taman nasional, komodo tidak ditemukan di Pulau Padar, sehingga pengunjung bebas menjelajahi pulau tanpa pengawasan ranger.</li>
+        </ul>
+
+        <h4 class="uk-heading-line"><span>Aktivitas Populer:</span></h4>
+        <ul class="uk-list uk-list-bullet">
+          <li><strong>Hiking ke puncak Padar:</strong> Jalur pendakian cukup menantang namun singkat (sekitar 20–30 menit), dan menawarkan pemandangan yang sangat memukau di setiap titiknya.</li>
+          <li><strong>Fotografi alam:</strong> Padar dikenal sebagai spot foto ikonik di Indonesia, sering dijadikan latar untuk promosi wisata nasional dan internasional.</li>
+          <li><strong>Snorkeling dan diving:</strong> Meskipun tidak seterkenal spot lain di taman nasional, perairan di sekitar Pulau Padar juga memiliki keanekaragaman hayati bawah laut yang tinggi.</li>
+        </ul>
+
+        <h4 class="uk-heading-line"><span>Akses:</span></h4>
+        <p></p>
+
+        <h4 class="uk-heading-line"><span>Fakta Menarik:</span></h4>
+        <ul class="uk-list uk-list-bullet">
+          <li>Pulau Padar adalah bagian dari UNESCO World Heritage Site, sebagai bagian dari keseluruhan Taman Nasional Komodo.</li>
+          <li>Pulau ini juga merupakan bagian dari Coral Triangle, wilayah laut dengan keanekaragaman hayati laut tertinggi di dunia.</li>
+        </ul>
+
+        <p>Dengan perpaduan antara keindahan topografi, pemandangan laut biru jernih, dan kekayaan alam, Pulau Padar menjadi destinasi impian bagi wisatawan, fotografer, dan pecinta petualangan.</p>
+      </div>
+    </section>
+    <!-- content ends -->
+
+    <a href="https://wa.me/6281234567890" class="whatsapp-float" target="_blank" uk-tooltip="title: Chat via WhatsApp; pos: left"><img src="assets/img/wa.png" alt="WhatsApp" width="40px" /></a>
+    <!-- Footer -->
+    <footer class="footer-container uk-section uk-section-muted uk-padding">
+      <div class="uk-container">
+        <div class="uk-flex uk-flex-between uk-flex-middle uk-margin-bottom">
+          <div>
+            <h2 class="uk-heading-line uk-text-bold"><span>Hubungi Kami</span></h2>
+            <p>Yuk ngobrol sama kami! Siapa tahu liburan impian kamu bisa langsung kejadian.</p>
+          </div>
+          <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-nowrap" style="gap: 10px">
+            <a href="https://www.instagram.com/" class="uk-icon-button" uk-icon="instagram" aria-label="Instagram"></a>
+            <a href="https://www.facebook.com/" class="uk-icon-button" uk-icon="facebook" aria-label="Facebook"></a>
+            <a href="https://www.youtube.com/" class="uk-icon-button" uk-icon="youtube" aria-label="YouTube"></a>
+          </div>
+        </div>
+        <hr />
+        <div uk-grid class="uk-child-width-expand@s uk-grid-small uk-flex-middle">
+          <div>
+            <strong>Kantor Pusat</strong><br />
+            Jl. Kali Abang Tengah No.8, Perwira,<br />
+            Kec. Bekasi Utara, Kota Bks, Jawa Barat,<br />
+            Indonesia, 17122
+          </div>
+          <div>
+            <strong>Telepon</strong><br />
+            +62 8123 456 7890
+          </div>
+          <div>
+            <strong>Email</strong><br />
+            travelin@gmail.com
+          </div>
+          <div class="uk-text-right">
+            <img src="assets/img/logo.png" alt="logo" style="max-height: 50px" />
+          </div>
+        </div>
+        <div class="uk-text-center uk-margin-top uk-text-small">Copyright © Travel.in. All rights reserved.</div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.4/dist/js/uikit-icons.min.js"></script>
+  </body>
+</html>
