@@ -75,6 +75,32 @@
     </div>
     <!-- carousel ends -->
 
+    <!-- Search Bar Sederhana (Input / Output) -->
+    <div class="uk-container uk-margin-medium-top uk-margin-bottom">
+      <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-width-2-3@m uk-align-center uk-text-center uk-box-shadow-small" style="border-radius: 16px;">
+        <h3 class="uk-card-title uk-margin-small-bottom uk-text-bold">Cari Destinasi</h3>
+        <p class="uk-text-muted uk-margin-remove-top uk-margin-small-bottom">Cari tempat wisata impianmu di Indonesia</p>
+        
+        <!-- Input Pencarian -->
+        <div class="uk-flex uk-flex-center uk-flex-wrap" style="gap: 10px;">
+          <input
+            class="uk-input uk-form-width-large"
+            type="text"
+            id="searchInput"
+            placeholder="Ketik destinasi (contoh: Bali, Malang, Papua)..."
+            style="border-radius: 8px;"
+          />
+          <button class="uk-button uk-button-primary" id="searchBtn" type="button" style="border-radius: 8px;">
+            Cari
+          </button>
+        </div>
+
+        <!-- Output Hasil Pencarian -->
+        <div id="searchOutput" class="uk-margin-top"></div>
+      </div>
+    </div>
+    <!-- Search Bar ends -->
+
     <!-- Text Description -->
     <div class="uk-container uk-margin-large-top">
       <div class="uk-child-width-1-2@m" uk-grid>
@@ -386,5 +412,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.4/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.4/dist/js/uikit-icons.min.js"></script>
+    <script src="assets/js/search.js"></script>
   </body>
 </html>
